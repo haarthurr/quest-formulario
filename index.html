@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <div class="mensagem-duvida">
+            <h1 class="titulo-duvida">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+            <p class="texto-duvida">caso tenha ficado com qualquer dúvida <br> basta nos mandar uma mensagem e <br> entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <section class="container">
+            <form class="formulario">
+                <div class="item">
+                    <input class="input" type="text" placeholder="Nome completo *"/>
+                    <p class="aviso-obrigatorio esconder">campo obrigatório</p>
+                </div>
+
+                <div class="item">
+                    <input class="input" type="text" placeholder="Email *"/>
+                    <p class="aviso-obrigatorio esconder">campo obrigatório</p>
+                </div>
+
+                <div class="item">
+                    <input class="input" type="text" placeholder="Telefone *"/>
+                    <p class="aviso-obrigatorio esconder">campo obrigatório</p>
+                </div>
+
+                <div class="item">
+                    <input class="input" type="text" placeholder="Mensagem *"/>
+                    <p class="aviso-obrigatorio esconder">campo obrigatório</p>
+                </div>
+
+                <div class="mensagem-alerta">
+                <p>*campos obrigatórios</p>
+                
+                </div>
+    
+                    <button id="botao-submit">Enviar</button>
+            </form>
+
+        </section>
+    </main>
+    <script src="./src/js/validacao-campos.js"></script>
+</body>
+</html>
