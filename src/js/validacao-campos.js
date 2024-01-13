@@ -4,12 +4,13 @@ const formulario = document.querySelector('.formulario');
 
 formulario.addEventListener('submit', (event) => {
     event.preventDefault()
-    inputs.forEach((input, index, array) => {
+    
+    inputs.forEach((input, index) => {
         let inputEstaVazio = input.value === ""
 
-        if (inputEstaVazio) {
+        if (inputEstaVazio){
             input.classList.remove('borda-verde')
-            input.classList.add('borda-vermelha');
+            input.classList.add('borda-vermelha')
             avisos[index].classList.remove('esconder')
         } else {
             input.classList.remove('borda-vermelha')
