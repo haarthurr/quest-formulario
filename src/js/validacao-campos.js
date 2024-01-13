@@ -1,6 +1,6 @@
 const inputs = document.querySelectorAll('.input');
-const avisos = document.querySelectorAll('.aviso-obrigatorio')
-const formulario = document.querySelector('.formulario')
+const avisos = document.querySelectorAll('.aviso-obrigatorio');
+const formulario = document.querySelector('.formulario');
 
 formulario.addEventListener('submit', (event) => {
     event.preventDefault()
